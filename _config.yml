@@ -9,8 +9,8 @@ markdown: kramdown
   
 # The title and tagline is showed on homepage
 #
-title :  Simpleyyt 
-tagline: Yitao's Blog
+title :  David Karlaš 
+tagline: David's Blog
 
 gems: [jekyll-paginate]
 
@@ -22,15 +22,14 @@ author :
 # Information for contacts showed at on the footer
 #
 contact :
-  e-mail : mailto:simpleyyt@gmail.com
-  Github : https://github.com/Simpleyyt
-  WeiBo : http://www.weibo.com/u/1836017133
-  Google+ : https://plus.google.com/103860633659538888207?rel=author
+  e-mail : mailto:david.karlas@gmail.com
+  Github : https://github.com/DavidKarlas
+  Twitter : http://twitter.com/DavidKarlas
   
 # Links showed on the footer
 #
-links :
-  Yitao's Blog : http://simpleyyt.github.io/
+#links :
+#  Yitao's Blog : http://simpleyyt.github.io/
 
 # The search engine. Only support google custom search engine.
 #
@@ -40,7 +39,7 @@ search :
   # Your Google custom search engine ID
   #
   gcse :
-    cx : 004255214185073801838:_icnlls8kds
+    cx : 004817729648225099994:bzf1fcno2qc
   
 # The way of excerpt. There are two options: "teaser" and "truncate_words".
 # "teaser" option: look for the More tag (<!--more-->) and create a teaser from the content that precedes the More tag.
@@ -126,37 +125,37 @@ JB :
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-  comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : simpleyyt
-    disqus :
-      short_name : simpleyyt
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+  #comments :
+  #  provider : duoshuo
+  #  duoshuo :
+  #    short_name : simpleyyt
+  #  disqus :
+  #    short_name : simpleyyt
+  #  livefyre :
+  #    site_id : 123
+  #  intensedebate :
+  #    account : 123abc
+  #  facebook :
+  #    appid : 123
+  #    num_posts: 5
+  #    width: 580
+  #    colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
-  analytics :
-    provider : google 
-    google : 
-        tracking_id : 'UA-123-12'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+  #analytics :
+  #  provider : google 
+  #  google : 
+  #      tracking_id : 'UA-123-12'
+  #  getclicky :
+  #    site_id : 
+  #  mixpanel :
+  #      token : '_MIXPANEL_TOKEN_'
+  #  piwik :
+  #      baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+  #      idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
