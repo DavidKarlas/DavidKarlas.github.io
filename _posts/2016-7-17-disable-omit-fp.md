@@ -14,13 +14,12 @@ So now I'm on mission to eliminate these performance problems. I realize this mi
 First thing I wanted to do in this area is figure out what code is causing beachball problems. I know that after few hours of working with IDE. It can get laggy and on some projects this can be bigger issue than others. I wanted tool to point users with this problems to and be able to get nice report of problem.
 
 Requirements I had:
-
- * Work on unmodified Xamarin Studio, so no AOT or valgrind(which is too slow anyway)
- * Profile managed and unmanaged code(Mono profiler only handles managed code)
- * It has to be ran from command line(Instruments doesn't seem to support parameters)
- * Format that I can easily parse(Instruments, has some binary format)
- * Preferably doesn't need sudo(DTrace/Instruments need sudo)
- * "Unlimited" stack depth(Instruments seem to fail here)
+  * Work on unmodified Xamarin Studio, so no AOT or valgrind(which is too slow anyway)
+  * Profile managed and unmanaged code(Mono profiler only handles managed code)
+  * It has to be ran from command line(Instruments doesn't seem to support parameters)
+  * Format that I can easily parse(Instruments, has some binary format)
+  * Preferably doesn't need sudo(DTrace/Instruments need sudo)
+  * "Unlimited" stack depth(Instruments seem to fail here)
 
 I decided to use "sample" is very simple command line tool built into macOS, which produces call tree with number of samples each stacktrace had while sampling app per thread.
 
