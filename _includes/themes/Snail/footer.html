@@ -1,7 +1,7 @@
 <footer>
 	<div class="footer-940">
 		<div class="footer-general-info">
-			© 2014 {{ site.author.name }}.<br><br>
+			© 2016 {{ site.author.name }}.<br><br>
 			Content licensed under:<br>
 			<a class="cc" href="http://creativecommons.org/licenses/by-sa/3.0/">c a b</a><br>
 			<a href = "{{ BASE_PATH}}{{ site.JB.about_path }}">About Me</a><br>
@@ -27,14 +27,6 @@
 				<ul>
 					<li><a href="{{ BASE_PATH }}{{ site.JB.atom_path }}">Atom Feed</a></li>
 					<li><a href="{{ BASE_PATH }}{{ site.JB.rss_path }}">RSS Feed</a></li>
-				</ul>
-			</div>
-			<div class="footer-nav-col">
-				<h4><a>Links</a></h4>
-				<ul>
-				{% for link in site.links %} 
-					<li><a href = "{{ link[1] }}">{{ link[0] }}</a></li>
-				{% endfor %}
 				</ul>
 			</div>
 			<div class="footer-nav-col">

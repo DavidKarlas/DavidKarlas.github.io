@@ -17,7 +17,7 @@ gems: [jekyll-paginate]
 # Information about author
 #
 author :
-  name : Yitao Yao
+  name : David Karlaš
   
 # Information for contacts showed at on the footer
 #

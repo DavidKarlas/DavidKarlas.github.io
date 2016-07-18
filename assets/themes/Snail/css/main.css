@@ -355,7 +355,7 @@ nav #nav-c ul#nav-list li#home a {
 	overflow:hidden;
 	display:block;
 	position:relative;
-	background: url("../img/avatar.jpg");
+	background: url("../img/avatar.png");
 	padding:0;
 	background-size: 100% 100%;
 	border-radius: 50%;  
@@ -1208,7 +1208,6 @@ footer .footer-940 {
 footer .footer-940 .footer-general-info {
 	line-height:1.6em;
 	padding:0 0 0 58px;
-	/* background: url("../img/avatar.jpg") no-repeat; */
 	float:left;
 	width:154px;
 	height:auto;
