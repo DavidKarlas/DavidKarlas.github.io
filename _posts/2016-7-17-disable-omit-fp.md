@@ -16,6 +16,7 @@ So now I'm on mission to eliminate these performance problems. I realize this mi
 First thing I wanted to do in this area is figure out what code is causing beachball problems. I know that after few hours of working with IDE. It can get laggy and on some projects this can be bigger issue than others. I wanted tool to point users with this problems to and be able to get nice report of problem.
 
 Requirements I had:
+
   * Work on unmodified Xamarin Studio, so no AOT or valgrind(which is too slow anyway)
   * Profile managed and unmanaged code(Mono profiler only handles managed code)
   * It has to be ran from command line(Instruments doesn't seem to support parameters)
