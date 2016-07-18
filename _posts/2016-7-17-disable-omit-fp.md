@@ -3,7 +3,7 @@ layout: post
 category: mono
 title: MONO_DEBUG=disable-omit-fp
 tagline: JIT 
-tags: [mono] [profiling]
+tags: [mono, profiling]
 ---
 *You can skip whole story and just go to **TL;DR** if you are just interested into "MONO_DEBUG=disable-omit-fp".*
 
