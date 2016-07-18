@@ -27,7 +27,7 @@ Requirements I had:
 I decided to use "sample" very simple command line tool built into macOS, which produces call tree with number of samples each stacktrace had while sampling app per thread.
 
 In combination with converting JITed method address to full method name via Mono runtime helper method `string mono_pmip(long addr)`.
-And conversion to FlameGraph result for UI thread is something [like this](~/assets/Xamarin_Studio_UIThreadHang.html) when opening some solution. We can see some time goes for GC but most goes for loading native libraries like libsvn and executing static constructors(.cctor) for editor extensions.
+And conversion to FlameGraph result for UI thread is something [like this](/assets/Xamarin_Studio_UIThreadHang.html) when opening some solution. We can see some time goes for GC but most goes for loading native libraries like libsvn and executing static constructors(.cctor) for editor extensions.
 
 ## TL;DR
 
